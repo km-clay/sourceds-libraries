@@ -1,3 +1,2 @@
-# Here is your `libtinfo.so.5`
-This repository contains a single file: the 32 bit version of the dynamic library `libtinfo.so.5`
-In a time of need, nixpkgs had no good way to obtain this file reasonably. If you want to do stuff like host dedicated servers for Team Fortress 2, this file is necessary.
+# Source Dedicated Server Libraries
+I needed a place to host these for my TF2 server NixOS containers. If you're having any issues starting a 32 bit TF2 dedicated server, download these, put them in your `LD_LIBRARY_PATH` and try starting the server again.
